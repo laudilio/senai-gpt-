@@ -79,7 +79,7 @@ img {/* tags, sem nenhum prefixo */
 .botao-login {
     cursor: pointer;
     padding: 18px;
-    background-color: blue;
+    color: blue;
     width: 377px;
     border-radius: 10px;
 
