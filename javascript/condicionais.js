@@ -90,19 +90,52 @@
 //     alert("impar incorreta");
 // }
 
-// Exercicio 7 
+// Intermediario 1
 
-let number = prompt("insira o resultado da operacao");
+// let numero1 = Number ( prompt("insira o primeiro numero"));
+// let numero2 = Number (prompt("insira o segundo numero"));
+// let operacao = prompt("insira a operacao. exemplo: +, -, *, / ");
 
-if (number 10 +) {
-    alert("resultado correto")
-}else { 
+// if (operacao == "+") {
+    
+//     let resultado = numero1 + numero2;
+//     alert(resultado);
+// } else{
 
-}    
+//     if(operacao == "-") {
+//         let resultado = numero1 - numero2;
+//         alert(resultado);
+    
+//     }else {
 
+//     if (operacao == "*") {
+        
+//         let resultado = numero1 * numero2;
+//         alert(resultado);
+//     }else {
+        
+//         if (operacao == "/") {
 
+//             let resultado = numero1 / numero2;
+//             alert(resultado);
+//         }
+//     }
+//     }    
+// }
+
+let numero1 = Number (prompt("insira o primeiro numero"));
+let numero2 = Number (prompt("insira o segundo numero"));
+let numero3 = Number (prompt("insira o terceiro numero"));
+
+if (numero1 > numero2 && numero1 > numero3){
+    alert(numero1);
 }else {
-    if ("nuber >16");
-    alert("ensino medio");
+    if (numero2 > numero1 && numero2 > numero3){
+        alert(numero2);
+    }else {
+        if (numero3 > numero2 && numero3 > numero1){
+            alert(numero3);
+        }
+    }        
 
-} else ("")    
+    }
