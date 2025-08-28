@@ -123,19 +123,24 @@
 //     }    
 // }
 
-let numero1 = Number (prompt("insira o primeiro numero"));
-let numero2 = Number (prompt("insira o segundo numero"));
-let numero3 = Number (prompt("insira o terceiro numero"));
+// Exercicio 2
 
-if (numero1 > numero2 && numero1 > numero3){
-    alert(numero1);
-}else {
-    if (numero2 > numero1 && numero2 > numero3){
-        alert(numero2);
-    }else {
-        if (numero3 > numero2 && numero3 > numero1){
-            alert(numero3);
-        }
-    }        
+// let numero1 = Number (prompt("insira o primeiro numero"));
+// let numero2 = Number (prompt("insira o segundo numero"));
+// let numero3 = Number (prompt("insira o terceiro numero"));
 
-    }
+
+// if (numero1 > numero2 && numero1 > numero3){
+//     alert(numero1);
+// }else {
+//     if (numero2 > numero1 && numero2 > numero3){
+//         alert(numero2);
+//     }else {
+//         if (numero3 > numero2 && numero3 > numero1){
+//             alert(numero3);
+//         }
+//     }        
+
+//     }
+
+
