@@ -1,0 +1,28 @@
+*{ 
+     margin: 0px;
+    box-sizing: 0px;
+}
+
+.container {
+
+    displey:flex
+}
+
+ button {
+    min-height:30px;
+    width: 20%;
+    background-color:white;
+    flex-direction: column;
+    display: flex;
+    align-items: left;
+    justify-content: space-around;
+    transition: all ease 0.2s;
+}
+
+button:hover {
+    background-color: gold;
+    transform: scale(1.1) rotateZ(360deg)
+}
+
+      
+

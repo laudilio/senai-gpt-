@@ -44,11 +44,21 @@
 // }
 
 
-let numero=Number(prompt("digite o numero"));
-let soma = 0;
+// let numero=Number(prompt("digite o numero"));
+// let soma = 0;
 
-for (let iterator=1; iterator<= numero; iterator++) {
+// for (let iterator=1; iterator<= numero; iterator++) {
 
-    soma = soma+iterator;
+//     soma = soma+iterator;
+// }
+// console.log(soma);
+function adicionar () {
+
+    let divlogs = document.querySelector(".logs"); // seleciona div 
+    let tagP = document.createElement("p"); // cria a tagp 
+    
+    tagP.innerHTML = "Exercicio executado as" + new Date().toLocaleDateString() + " as " + new Date().toLocaleTimeString();
+    divlogs.appendChild(tagP); // acrecenta a tagp dentro da divlogs
 }
-console.log(soma);
+
+
