@@ -5,7 +5,7 @@
 
 .container {
 
-    displey:flex
+    display:flex;   
 }
 
  button {
@@ -21,7 +21,7 @@
 
 button:hover {
     background-color: gold;
-    transform: scale(1.1) rotateZ(360deg)
+    transform: scale(1.1) rotateZ(360deg);
 }
 
       
